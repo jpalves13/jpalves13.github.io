@@ -1,0 +1,65 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("teste.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	
+	opacity: 1;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.skill-card {
+    background-color: #fff;
+    max-height: 150px;
+    max-width: 80px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    margin: 0 10px 10px 0;
+}
+.skill-card .skill-card--footer {
+    flex: 1 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+}
+.workYear {
+    width: 140px;
+    height: 140px;
+    padding-top: 50px;
+}
+.workYear {
+    font-size: 17px;
+    color: #fff;
+    background: #ff9800;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding: 40px 0 40px 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
